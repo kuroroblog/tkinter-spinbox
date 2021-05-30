@@ -1,5 +1,4 @@
-# tkinter-menubutton
-Tkinterのmenubuttonに関するコード
+# tkinter-spinbox
+Tkinterのspinboxに関するコード
 
 # 参考記事
-https://kuroro.blog/python/Dfq4VCJ7OiEfYJv6ySge/
