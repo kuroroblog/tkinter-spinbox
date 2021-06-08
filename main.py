@@ -10,6 +10,7 @@ class Application(tk.Frame):
         super().__init__(master)
 
         # Windowの画面サイズを設定する。
+        # geometryについて : https://kuroro.blog/python/rozH3S2CYE0a0nB3s2QL/
         self.master.geometry("300x200")
 
         # Windowを親要素として、frame Widget(Frame)を作成する。
@@ -39,4 +40,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = Application(master=root)
     # Windowをループさせて、継続的にWindow表示させる。
+    # mainloopについて : https://kuroro.blog/python/DmJdUb50oAhmBteRa4fi/
     app.mainloop()
